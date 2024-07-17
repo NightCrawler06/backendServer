@@ -4,7 +4,7 @@ from models import Contact
 
 @app.route('/')
 def home():
-    return jsonify(message="Hello, Vercel!")
+    return jsonify(message="Hello, Your server is running smoothly.")
     
 @app.route("/contacts", methods=["GET"])
 def get_contacts():
